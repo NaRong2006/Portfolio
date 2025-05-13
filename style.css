@@ -1,0 +1,18 @@
+
+.icon a:hover {
+        color: rgb(39, 15, 255);
+        transform: scale(1.4);
+        transition: all 0.3s ease;
+        
+    }
+#typed3 i{
+    font-size: xx-large;
+    color: rgb(241, 208, 15);
+    text-decoration: underline rgb(141, 146, 188);
+    text-underline-offset: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+

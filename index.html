@@ -1,0 +1,939 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="link/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Document</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Boeun Narong</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: tohoma, sans-serif;
+      /* font-size: 16px; */
+      margin: 0;
+      padding: 0;
+    }
+
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .sidebar {
+      width: 250px;
+      height: 100vh;
+    }
+
+    @media (max-width: 991.98px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        margin-top: 48px;
+      }
+    }
+
+    @media (max-width: 767.98px) {}
+
+    .sidebar nav a {
+      color: gray;
+      text-decoration: none;
+    }
+
+    .sidebar nav a:hover {
+      color: white;
+    }
+
+    .sidebar .icon a:hover i {
+      color: white;
+
+    }
+
+    .sidebar nav li:focus a {
+      color: white;
+    }
+  </style>
+</head>
+
+<body class="d-flex" data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="100" tabindex="0">
+
+  <!-- Navbar for Mobile Toggle -->
+  <div class="navbar  navbar-dark d-lg-none d-block ">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <span class="navbar-brand text-black ">Maa Rong</span>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar"
+        aria-controls="offcanvasSidebar">
+        <i class="bi bi-list"></i>
+      </button>
+      <img class="object-fit-cover" style="margin-left: 0px; width: 100%; height: 100vh;"
+        src="https://wallpapercave.com/wp/wp7453794.jpg" alt="">
+      <p id="typed2" class="position-absolute text-warning translate-middle start-50 top-0 mt-4"></p>
+    </div>
+    <div class="about d-flex flex-column " style="width: 100%; height: auto;">
+      <div style="width: 100%;  height: 100vh;" class="mt-5">
+        <div class="p-5">
+          <div style="margin-top: -80px; text-align: center;">
+            <h2 class="fw-bolder">About</h2>
+            <p style="width: 50px; height: 3px; background-color: rgb(20, 157, 221);"></p>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+              consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+              sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+        </div>
+        <div class="d-flex mt-5 gap-4 flex-column">
+          <div style="margin-top: -50px; display: flex; justify-content: center; align-items: center;">
+            <img class="img-fluid " width="400" height="400"
+              src="https://themewagon.github.io/iPortfolio/assets/img/my-profile-img.jpg" alt="">
+          </div>
+          <div class="d-flex flex-column p-5">
+            <h3 style="text-align: center; margin-top: -20px;">UI/UX Designer & Web Developer.</h3><br>
+            <i style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</i><br><br>
+            <div class="d-flex flex-column justify-content-center align-items-center" style="gap: 210px;">
+              <div>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Birthday:</strong>
+                <span>1 May 1995</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span>
+              </div>
+              <div style="margin-top: -185px;">
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Birthday:</strong>
+                <span>1 May 1995</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span>
+              </div>
+            </div>
+            <p class="mt-4 text-center">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero.
+              Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.</p>
+          </div>
+        </div>
+        <div
+          style="width: 100%; height: auto; gap: 25px; margin-top: -50px; display: flex; justify-content: center; align-items: center;">
+          <div>
+            <div class="d-flex justify-content-center align-items-center gap-3">
+              <i class="bi bi-emoji-smile text-primary mt-1" style="font-size: 25px;"></i>
+              <div class="mt-5 ">
+                <h1 class="fw-bolder" style="font-size: 1.5rem;">232</h1>
+                <h6 style="color: rgb(73, 72, 72);">Happy Clients </h6>
+                <p style="color: gray; margin-top: -5px;">consequuntur quae</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center gap-3">
+              <i class="bi bi-journal-richtext text-primary mt-1" style="font-size: 25px;"></i>
+              <div class="mt-5 ">
+                <h1 class="fw-bolder" style="font-size: 1.5rem;">232</h1>
+                <h6 style="color: rgb(73, 72, 72);">Happy Clients </h6>
+                <p style="color: gray; margin-top: -5px; ">consequuntur quae</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="d-flex justify-content-center align-items-center gap-3">
+              <i class="bi bi-headset text-primary mt-1" style="font-size: 25px;"></i>
+              <div class="mt-5 ">
+                <h1 class="fw-bolder" style="font-size: 1.5rem;">232</h1>
+                <h6 style="color: rgb(73, 72, 72);">Happy Clients </h6>
+                <p style="color: gray; margin-top: -5px;">consequuntur quae</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center gap-3">
+              <i class="bi bi-people text-primary mt-1" style="font-size: 25px;"></i>
+              <div class="mt-5 ">
+                <h1 class="fw-bolder" style="font-size: 1.5rem;">232</h1>
+                <h6 style="color: rgb(73, 72, 72);">Happy Clients </h6>
+                <p style="color: gray; margin-top: -5px;">consequuntur quae</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill " style="background-color: #f4fafd;">
+          <div style="width: 100%; padding: 20px; height: auto;" id="skill">
+            <h2 class="fw-bolder">Skills</h2>
+            <p style="width: 100px; height: 3px; background-color: rgb(20, 157, 221);"></p>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <div class="d-flex flex-column gap-4 w-100">
+              <div class="w-100 progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                  style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML</div>
+              </div>
+              <div class="w-100 progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                  style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">CSS</div>
+              </div>
+              <div class="w-100 progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                  style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JavaScrip</div>
+              </div>
+              <div class="w-100 progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                  style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">BootSrap</div>
+              </div>
+            </div>
+            <div class="d-flex flex-column gap-4 w-100 mt-4  ">
+              <div class="w-100 progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                  style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">C#</div>
+              </div>
+              <div class="w-100 progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                  style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Phyton</div>
+              </div>
+              <div class="w-100 progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                  style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">C</div>
+              </div>
+              <div class="w-100 progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                  style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">C++</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center container-fluid"
+          style="width: 100%; height: auto;">
+          <div class="Resume container-fluid mt-5">
+            <div>
+              <h2 class="fw-bolder">Resume</h2>
+              <p style="width: 50px; height: 3px; background-color: rgb(20, 157, 221);"></p>
+              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+            <div class="container">
+              <div class="row" style="margin-top: 70px;">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <h3 class="resume-title fw-bold">Sumary</h3>
+                  <p
+                    style="width: 20px; height: 20px; border: 2px solid blue; border-radius: 50%; position: absolute; left: 6%; margin-top: 20px;">
+                  </p>
+                  <p style="width: 2px; height: 350px; background-color: blue; position: absolute; margin-top:40px;">
+                  </p>
+                  <div class="resume-item ps-4 p-3">
+                    <h5 style="background-color: transparent;">Web Designer</h5>
+                    <p
+                      style="padding:5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                      2015 - 2018</p>
+                    <p style="padding-left: 10px;"><em>It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, making it look like readable English.</em></p>
+                    <ul class="gap-2 d-flex flex-column">
+                      <li>Portland par 127,Orlando, FL</li>
+                      <li>(123) 456-7891</li>
+                      <li>alice.barkley@example.com</li>
+                    </ul>
+                  </div>
+                  <h3 class="resume-title fw-bold">Education</h3>
+                  <p
+                    style="width: 20px; height: 20px; border: 2px solid blue; border-radius: 50%; position: absolute; left: 6%; margin-top: 20px;">
+                  </p>
+                  <p style="width: 2px; height: 510px; background-color: blue; position: absolute; margin-top:40px;">
+                  </p>
+                  <div class="resume-item p-3 ps-4">
+                    <h5>Web Designer</h5>
+                    <p
+                      style="padding: 5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                      2015 - 2018</p>
+                    <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, making it look like readable English.</em></p>
+                    <h5>Frontend Developer</h5>
+                    <p style="padding: 5px 10px;">2015 - 2018</p>
+                    <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, making it look like readable English.</em></p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <h3 class="title-resume fw-bolder">Experience</h3>
+                  <p
+                    style="width: 20px; height: 20px; border: 2px solid blue; border-radius: 50%; position: absolute; left: 6%; margin-top: 20px;">
+                  </p>
+                  <p style="width: 2px; height: 950px; background-color: blue; position: absolute; margin-top:40px;">
+                  </p>
+                  <div class="resume-item p-3 ps-4">
+                    <h5 style="background-color: transparent;">Web Designer</h5>
+                    <p
+                      style="padding: 5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                      2015 - 2018</p>
+                    <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, making it look like readable English.</em></p>
+                    <ul class="gap-2 d-flex flex-column">
+                      <li>Portland par 127,Orlando, FL</li>
+                      <li>(123) 456-7891</li>
+                    </ul>
+                  </div>
+                  <div class="resume-item p-3 ps-4">
+                    <h5 style="background-color: transparent;">Web Designer</h5>
+                    <p
+                      style="padding: 5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                      2015 - 2018</p>
+                    <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, making it look like readable English.</em></p>
+                  </div>
+                  <div class="resume-item p-3 ps-4">
+                    <h5 style="background-color: transparent;">Web Designer</h5>
+                    <p
+                      style="padding: 5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                      2015 - 2018</p>
+                    <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, making it look like readable English.</em></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio" style="background-color: #f4fafd; margin-top: 50px;" >
+          <div style="margin-left: 1%; padding: 50px 10px;">
+            <h2 class="portfolio-title fw-bold">Portfolio</h2>
+            <p style="width: 50px; height: 3px; background-color: rgb(20, 157, 221);"></p>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+  
+            <div style="width: 95%; margin: auto;">
+              <div class="link" style="margin-top: 70px;">
+                <ul
+                  class="portfolio-filter d-flex justify-content-center align-items-center gap-4 list-unstyled text-uppercase nav nav-tabs"
+                  role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" data-bs-toggle="pill" href="#portfolio-item-al" role="tab">All</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" data-bs-toggle="pill" href="#portfolio-item-ap" role="tab">App</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" data-bs-toggle="pill" href="#portfolio-item-pro" role="tab">Products</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" data-bs-toggle="pill" href="#portfolio-item-brand" role="tab">Branding</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" data-bs-toggle="pill" href="#portfolio-item-boo" role="tab">Books</a>
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="tab-content">
+                <!-- All -->
+                <div class="portfolio-item tab-pane fade show active" id="portfolio-item-al" role="tabpanel">
+                  <div class="row p-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-1.jpg"
+                        alt="App 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/product-1.jpg" alt="Product 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/branding-1.jpg"
+                        alt="Branding 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/books-1.jpg" alt="Books 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                      <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-2.jpg"
+                        alt="App 2">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/product-2.jpg" alt="Product 2">
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- App -->
+                <div class="portfolio-item tab-pane fade" id="portfolio-item-ap" role="tabpanel">
+                  <div class="row p-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-1.jpg"
+                        alt="App 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-2.jpg"
+                        alt="App 2">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-3.jpg"
+                        alt="App 3">
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- Products -->
+                <div class="portfolio-item tab-pane fade" id="portfolio-item-pro" role="tabpanel">
+                  <div class="row p-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/product-1.jpg" alt="Product 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/product-2.jpg" alt="Product 2">
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- Branding -->
+                <div class="portfolio-item tab-pane fade" id="portfolio-item-brand" role="tabpanel">
+                  <div class="row p-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/branding-1.jpg"
+                        alt="Branding 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/branding-2.jpg"
+                        alt="Branding 2">
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- Books -->
+                <div class="portfolio-item tab-pane fade" id="portfolio-item-boo" role="tabpanel">
+                  <div class="row p-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/books-1.jpg" alt="Books 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img class="img-fluid"
+                        src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/books-2.jpg" alt="Books 2">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Sidebar -->
+  <div
+    class="offcanvas-lg offcanvas-start text-bg-dark sidebar p-4 d-flex flex-column align-items-center position-fixed top-0"
+    tabindex="-1" id="offcanvasSidebar">
+    <img width="150" height="150" class="rounded-circle bg-black object-fit-scale p-1" src="image/28.jpg" alt="">
+    <h4 class="mt-3" style="font-family:Verdana, Geneva, Tahoma, sans-serif">Boeun Narong</h4>
+    <div class="icon d-flex gap-2 mt-3" style="font-size: 20px; ">
+      <a class=" p-2 rounded-circle" style="color: gray;" href="#"><i class="bi bi-twitter-x"></i></a>
+      <a class=" p-2 rounded-circle" style="color: gray;" href="#"><i class="bi bi-facebook"></i></a>
+      <a class=" p-2 rounded-circle" style="color: gray;" href="#"><i class="bi bi-instagram"></i></a>
+      <a class=" p-2 rounded-circle" style="color: gray;" href="#"><i class="bi bi-linkedin"></i></a>
+      <a class=" p-2 rounded-circle" style="color: gray;" href="#"><i class="bi bi-github"></i></a>
+    </div>
+    <nav class="mt-4 w-100">
+      <ul class="navbar-nav flex-column gap-3 text-start ps-3" id="sidebar">
+        <li class="nav-item"><a class="nav-link d-flex gap-2 align-items-center" href="#"><i
+              class="bi bi-house"></i>Home</a></li>
+        <li class="nav-item"><a class="nav-link d-flex gap-2 align-items-center" href="#about"><i
+              class="bi bi-person"></i>About</a></li>
+        <li class="nav-item"><a class="nav-link d-flex gap-2 align-items-center" href="#resume"><i
+              class="bi bi-file-earmark-text"></i>Resume</a></li>
+        <li class="nav-item"><a class="nav-link d-flex gap-2 align-items-center" href="#portfolio"><i
+              class="bi bi-images"></i>Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link d-flex gap-2 align-items-center" href="#"><i
+              class="bi bi-hdd-stack"></i>Services</a></li>
+        <li class="nav-item"><a class="nav-link d-flex gap-2 align-items-center" href="#"><i
+              class="bi bi-menu-button"></i>Dropdown</a></li>
+        <li class="nav-item"><a class="nav-link d-flex gap-2 align-items-center" href="#"><i
+              class="bi bi-envelope"></i>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <section class="content d-lg-block d-none "
+    style="margin-left: 0; padding-left: 0; width: 100%; background-image: url('https://wallpapercave.com/wp/wp7453794.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+    <div class="d-flex flex-column justify-content-center align-items-center text-white h-100"
+      style="margin-left: -700px;">
+      <h1 class="fw-bold" style="font-size: 3.5rem; font-family: Cambria, Georgia, serif;">Maa Rong</h1>
+      <span id="typed3"
+        style="font-size: 1.5rem; text-decoration: underline rgb(172, 169, 140); text-underline-offset: 5px;"></span>
+    </div>
+    <div class="about ">
+      <div style="width: 100%; padding-left: 18%; height: 100vh;" class="mt-5" id="about">
+        <h2 class="fw-bolder">About</h2>
+        <p style="width: 50px; height: 3px; background-color: rgb(20, 157, 221);"></p>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+        <div class="d-flex mt-5 gap-4">
+          <div>
+            <img class="img-fluid" width="800" height="800"
+              src="https://themewagon.github.io/iPortfolio/assets/img/my-profile-img.jpg" alt="">
+          </div>
+          <div">
+            <h3>UI/UX Designer & Web Developer.</h3><br>
+            <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</i><br><br>
+            <div class="d-flex " style="gap: 210px;">
+              <div>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Birthday:</strong>
+                <span>1 May 1995</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span>
+              </div>
+              <div>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Birthday:</strong>
+                <span>1 May 1995</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span><br><br>
+                <i class="bi bi-chevron-right text-info"></i>
+                <strong>Website:</strong>
+                <span>www.example.com</span>
+              </div>
+            </div>
+            <p class="mt-4">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
+              adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta
+              maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.</p>
+        </div>
+      </div>
+      <div style="width: 100%; height: auto; margin-top: -250px;">
+        <div style="width: 80%; margin-left: 18%; display: flex; gap: 150px; ">
+          <div class="d-flex justify-content-center align-items-center gap-3">
+            <i class="bi bi-emoji-smile text-primary mt-1" style="font-size: 50px;"></i>
+            <div class="mt-5 p-1">
+              <h1 class="fw-bolder" style="font-size: 3rem;">232</h1>
+              <h6 style="color: rgb(73, 72, 72);">Happy Clients </h6>
+              <p style="color: gray; margin-top: -5px;">consequuntur quae</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center align-items-center gap-3">
+            <i class="bi bi-journal-richtext text-primary mt-1" style="font-size: 50px;"></i>
+            <div class="mt-5 p-1">
+              <h1 class="fw-bolder" style="font-size: 3rem;">232</h1>
+              <h6 style="color: rgb(73, 72, 72);">Happy Clients </h6>
+              <p style="color: gray; margin-top: -5px;">consequuntur quae</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center align-items-center gap-3">
+            <i class="bi bi-headset text-primary mt-1" style="font-size: 50px;"></i>
+            <div class="mt-5 p-1">
+              <h1 class="fw-bolder" style="font-size: 3rem;">232</h1>
+              <h6 style="color: rgb(73, 72, 72);">Happy Clients </h6>
+              <p style="color: gray; margin-top: -5px;">consequuntur quae</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center align-items-center gap-3">
+            <i class="bi bi-people text-primary mt-1" style="font-size: 50px;"></i>
+            <div class="mt-5 p-1">
+              <h1 class="fw-bolder" style="font-size: 3rem;">232</h1>
+              <h6 style="color: rgb(73, 72, 72);">Happy Clients </h6>
+              <p style="color: gray; margin-top: -5px;">consequuntur quae</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="skill" style="background-color: #f4fafd;">
+      <div style="width: 100%; padding-left: 18%; height: auto; padding-top: 50px;" id="skill">
+        <h2 class="fw-bolder">Skills</h2>
+        <p style="width: 50px; height: 3px; background-color: rgb(20, 157, 221);"></p>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="d-flex w-100 " style="margin-left: -30px;">
+          <div class="d-flex flex-column gap-5 w-50 p-5">
+            <div class="w-100 progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML</div>
+            </div>
+            <div class="w-100 progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">CSS</div>
+            </div>
+            <div class="w-100 progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JavaScrip</div>
+            </div>
+            <div class="w-100 progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">BootSrap</div>
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-5 w-50 p-5">
+            <div class="w-100 progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">C#</div>
+            </div>
+            <div class="w-100 progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Phyton</div>
+            </div>
+            <div class="w-100 progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">C</div>
+            </div>
+            <div class="w-100 progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">C++</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Resume container" id="resume" style="margin-left: 17%; margin-top: 50px;">
+      <div>
+        <h2 class="fw-bolder">Resume</h2>
+        <p style="width: 50px; height: 3px; background-color: rgb(20, 157, 221);"></p>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="container">
+        <div class="row" style="margin-top: 70px;">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h3 class="resume-title fw-bold">Sumary</h3>
+            <p
+              style="width: 20px; height: 20px; border: 3px solid blue; border-radius: 50%; position: absolute; left: 17.91%; margin-top: 20px;">
+            </p>
+            <p style="width: 3px; height: 250px; background-color: blue; position: absolute; margin-top:40px;"></p>
+            <div class="resume-item ps-4 p-3">
+              <h5 style="background-color: transparent;">Web Designer</h5>
+              <p
+                style="padding:5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                2015 - 2018</p>
+              <p style="padding-left: 10px;"><em>It is a long established fact that a reader will be distracted by the
+                  readable content of a page
+                  when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                  distribution of letters, making it look like readable English.</em></p>
+              <ul class="gap-2 d-flex flex-column">
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div>
+            <h3 class="resume-title fw-bold">Education</h3>
+            <p
+              style="width: 20px; height: 20px; border: 3px solid blue; border-radius: 50%; position: absolute; left: 17.91%; margin-top: 20px;">
+            </p>
+            <p style="width: 3px; height: 350px; background-color: blue; position: absolute; margin-top:40px;"></p>
+            <div class="resume-item p-3 ps-4">
+              <h5>Web Designer</h5>
+              <p
+                style="padding: 5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                2015 - 2018</p>
+              <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by the
+                  readable content of a page
+                  when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                  distribution of letters, making it look like readable English.</em></p>
+              <h5>Frontend Developer</h5>
+              <p style="padding: 5px 10px;">2015 - 2018</p>
+              <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by the
+                  readable content of a page
+                  when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                  distribution of letters, making it look like readable English.</em></p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h3 class="title-resume fw-bolder">Experience</h3>
+            <p
+              style="width: 20px; height: 20px; border: 3px solid blue; border-radius: 50%; position: absolute; left: 56.2%; margin-top: 20px;">
+            </p>
+            <p style="width: 3px; height: 730px; background-color: blue; position: absolute; margin-top:40px;"></p>
+            <div class="resume-item p-3 ps-4">
+              <h5 style="background-color: transparent;">Web Designer</h5>
+              <p
+                style="padding: 5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                2015 - 2018</p>
+              <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by the
+                  readable content of a page
+                  when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                  distribution of letters, making it look like readable English.</em></p>
+              <ul class="gap-2 d-flex flex-column">
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+              </ul>
+            </div>
+            <div class="resume-item p-3 ps-4">
+              <h5 style="background-color: transparent;">Web Designer</h5>
+              <p
+                style="padding: 5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                2015 - 2018</p>
+              <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by the
+                  readable content of a page
+                  when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                  distribution of letters, making it look like readable English.</em></p>
+            </div>
+            <div class="resume-item p-3 ps-4">
+              <h5 style="background-color: transparent;">Web Designer</h5>
+              <p
+                style="padding: 5px 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                2015 - 2018</p>
+              <p style="padding: 0 10px;"><em>It is a long established fact that a reader will be distracted by the
+                  readable content of a page
+                  when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                  distribution of letters, making it look like readable English.</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio" style="background-color: #f4fafd; margin-top: 50px;" id="portfolio">
+      <div style="margin-left: 17%; padding: 50px 10px;">
+        <h2 class="portfolio-title fw-bold">Portfolio</h2>
+        <p style="width: 50px; height: 3px; background-color: rgb(20, 157, 221);"></p>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+  
+        <div style="width: 95%; margin: auto;">
+          <div class="link" style="margin-top: 70px;">
+            <ul
+              class="portfolio-filter d-flex justify-content-center align-items-center gap-4 list-unstyled text-uppercase nav nav-tabs"
+              role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" data-bs-toggle="pill" href="#portfolio-item-all" role="tab">All</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" href="#portfolio-item-app" role="tab">App</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" href="#portfolio-item-product" role="tab">Products</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" href="#portfolio-item-branding" role="tab">Branding</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" data-bs-toggle="pill" href="#portfolio-item-books" role="tab">Books</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="tab-content">
+            <!-- All -->
+            <div class="portfolio-item tab-pane fade show active" id="portfolio-item-all" role="tabpanel">
+              <div class="row p-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-1.jpg"
+                    alt="App 1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/product-1.jpg"
+                    alt="Product 1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/branding-1.jpg"
+                    alt="Branding 1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/books-1.jpg"
+                    alt="Books 1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-2.jpg"
+                    alt="App 2">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/product-2.jpg"
+                    alt="Product 2">
+                </div>
+              </div>
+            </div>
+  
+            <!-- App -->
+            <div class="portfolio-item tab-pane fade" id="portfolio-item-app" role="tabpanel">
+              <div class="row p-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-1.jpg"
+                    alt="App 1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-2.jpg"
+                    alt="App 2">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/app-3.jpg"
+                    alt="App 3">
+                </div>
+              </div>
+            </div>
+  
+            <!-- Products -->
+            <div class="portfolio-item tab-pane fade" id="portfolio-item-product" role="tabpanel">
+              <div class="row p-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/product-1.jpg"
+                    alt="Product 1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/product-2.jpg"
+                    alt="Product 2">
+                </div>
+              </div>
+            </div>
+  
+            <!-- Branding -->
+            <div class="portfolio-item tab-pane fade" id="portfolio-item-branding" role="tabpanel">
+              <div class="row p-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/branding-1.jpg"
+                    alt="Branding 1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/branding-2.jpg"
+                    alt="Branding 2">
+                </div>
+              </div>
+            </div>
+  
+            <!-- Books -->
+            <div class="portfolio-item tab-pane fade" id="portfolio-item-books" role="tabpanel">
+              <div class="row p-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/books-1.jpg"
+                    alt="Books 1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img class="img-fluid" src="https://themewagon.github.io/iPortfolio/assets/img/portfolio/books-2.jpg"
+                    alt="Books 2">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services">
+      <div class="" style="margin-left: 17%; padding: 50px 10px;">
+        <h2 class="fw-bolder">Service</h2>
+        <p style="width: 50px; height: 3px; background-color: rgb(20, 157, 221);"></p>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex gap-3">
+              <a class="pt-3 " href="#"><i class="bi bi-briefcase bg-info p-3 rounded-circle fs-4 text-white "></i></a>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                  provident</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex gap-3">
+              <a class="pt-3 " href="#"><i class="bi bi-briefcase bg-info p-3 rounded-circle fs-4 text-white "></i></a>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                  provident</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex gap-3">
+              <a class="pt-3 " href="#"><i class="bi bi-briefcase bg-info p-3 rounded-circle fs-4 text-white "></i></a>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                  provident</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex gap-3">
+              <a class="pt-3 " href="#"><i class="bi bi-briefcase bg-info p-3 rounded-circle fs-4 text-white "></i></a>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                  provident</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex gap-3">
+              <a class="pt-3 " href="#"><i class="bi bi-briefcase bg-info p-3 rounded-circle fs-4 text-white "></i></a>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                  provident</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex gap-3">
+              <a class="pt-3 " href="#"><i class="bi bi-briefcase bg-info p-3 rounded-circle fs-4 text-white "></i></a>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                  provident</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Scripts -->
+</body>
+<script src="link/bootstrap.bundle.min.js"> </script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed3 = new Typed('#typed3', {
+    strings: ["Web Developer", "UI Designer", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    smartBackspace: true,
+    loop: true
+  });
+</script>
+<script>
+  var typed3 = new Typed('#typed2', {
+    strings: ["Web Developer", "UI Designer", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    smartBackspace: true,
+    loop: true
+  });
+</script>
+
+</html>
